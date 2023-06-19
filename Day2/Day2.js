@@ -10,6 +10,12 @@ function calculatefn() {
   } else {
     const age = getAge(birthdayValue);
     console.log(age);
+    result.innerText = `Your Age is 
+    ${age} 
+    ${age > 1 
+        ?"Years" 
+        :"Year"} 
+    Old`
   }
 }
 
