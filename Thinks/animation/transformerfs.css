@@ -1,0 +1,31 @@
+
+img{
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+    transition: transform 1s ease-in .5s;
+    /** lvl 2*/
+    transform-origin: top;
+}
+
+
+img:hover{
+    transform: rotate(150deg)
+}
+
+/** Basic Transform*/
+/* img:hover{
+    transform: skew(12deg , 12deg)
+} */
+/* img:hover{
+    transform: rotate(180deg);
+    transform: rotate(1turn);
+    transform: rotate(100grad);
+} */
+/* img:hover{
+    transform: scale(1.5 , 1.5);
+} */
+/* img:hover{
+    transform: translateX(700px);
+} */

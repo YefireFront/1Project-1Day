@@ -1,0 +1,105 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    position: relative;
+    transition: all 1s;
+    border-radius: 15px;
+    overflow: hidden;
+    font-size: 35px;
+    padding: 20px 80px;
+    margin: 20px ;
+    border: 2px solid rgb(0, 0, 0);
+    font-family: 'roboto';
+
+}
+
+.a1{
+    color: blue;
+    border: 2px solid goldenrod;
+}
+.a1::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    z-index: -1;
+    transform: translate(-100%, 0);
+    transition: all 1s;
+}
+.a1:hover{
+    color: goldenrod;
+}
+
+.a1:hover::before{
+    
+    transform: translate(0, 0);
+}
+
+.a2{
+    color: rgb(255, 0, 0);
+    border: 2px solid rgb(218, 32, 32);
+}
+
+.a2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    z-index: -1;
+    transition: all 1s;
+    transform: rotateX(90deg);
+}
+.a2::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    z-index: -1;
+    transition: all 1s;
+    transform: rotateY(90deg);
+}
+
+.a2:hover::before{
+    transform: rotateX(0deg);
+}
+.a2:hover::after{
+    transform: rotateX(0deg);
+}
+
+.a2:hover{
+    color: white;
+}
+
+.a3{
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    transition: all 0.5s;
+    color: white;
+}
+
+
+.a3:hover{
+    transform: scaleX(1.2);
+    font-weight: 500;
+    border: 4px solid rgb(196, 170, 1);
+    letter-spacing: 5px;
+    color: black;
+
+
+}

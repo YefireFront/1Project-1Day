@@ -1,0 +1,28 @@
+button{
+    height: 90px;
+    width: 300px;
+    font-size: 30px;
+    color: black;
+    border: none;
+    background-color: palegreen;
+    /** Trancision */
+    transition-property: all ;
+    transition-duration: .5s ;
+    transition-delay: 100ms;
+    transition-timing-function: ease-in;
+
+    /** ShortHad*/
+    /*% properties time function delay */
+
+    /* transition: background-color 1s ease-in-out .5s , color 2s ease-in 0.5s , border 5s ease-in 0.1s */
+
+}
+
+
+button:hover{
+    background-color: palevioletred;
+    color: aliceblue;
+    width: 350px;
+    border-radius: 50px;
+    border: 3px solid black;
+}
