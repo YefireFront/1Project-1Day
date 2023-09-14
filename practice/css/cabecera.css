@@ -1,0 +1,80 @@
+.cabecera{
+    width: 100%;
+    height: 100vh;
+    background-color: peachpuff;
+    border: 1px solid salmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+
+.card-mayor{
+    width: 700px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 10px;
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.derecha{
+    width: 50%;
+    height: 100%;
+    background-color: gray;
+
+}
+.derecha img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.izquierda{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px;
+
+}
+
+
+.izquierda a{
+
+    width: 100px;
+    background-color: rgb(58, 58, 58);
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+
+}
+
+.cabecera .img {
+    width: 60px;
+    position: absolute;
+    top:0;
+    left: 15px;
+}
+
+.derecha:hover img{
+  display: none;
+   
+}
+
+.derecha:hover{
+    background-image: url(../img/MJ/backcd2.jpg);
+    background-position: center;
+    background-size: cover;
+}

@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Section-Principal {
+  background-color: rgb(233, 233, 233);
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.carton {
+  margin: 10px 0 0 150px;
+  width: 650px;
+  height: 300px;
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 25px;
+  box-shadow: 6px 2px 18px 8px rgba(0,0,0,0.25)
+  ;
+}
+
+.carta {
+    width: 50%;
+  position: relative;
+  background-color: #c33240;
+  border-radius: 25px;
+}
+
+.carta img {
+  width: 120%;
+  position: absolute;
+  bottom: 0;
+  left: -100px;
+}
+
+.info {
+  position: relative;
+  width: 60%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.info a {
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #c33240;
+  color: white;
+}
+
+.info h1 {
+  font-size: 44px;
+  color: #c33240;
+}
+
+.info p {
+  font-size: 14px;
+}
+
+.cartaKobe img {
+  width: 92%;
+  left: -40px;
+}
+
+.infoKobe {
+  position: relative;
+  width: 60%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.infoKobe a {
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #7132c3;
+  color: white;
+}
+
+.infoKobe h1 {
+  font-size: 44px;
+  color: #7132c3;
+}
+
+.infoKobe p {
+  font-size: 14px;
+}
+.cartaKobe {
+  width: 50%;
+  position: relative;
+  background-color: #7132c3;
+}
+
+.cartaKobe img {
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  left: -40px;
+}
+
+
+.info a:hover {
+   width: 200px;
+   background-color: aliceblue;
+   color: #c33240;
+   border: 2px solid #c33240;
+}
+
+.carton:hover{
+  border: 2px solid rgb(0, 162, 67);
+  cursor: pointer;
+}
